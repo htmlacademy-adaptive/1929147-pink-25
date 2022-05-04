@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <base href="https://htmlacademy-adaptive.github.io/1929147-pink-25/3/">
+</head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="#" aria-label="Логотип Pink">
+        <svg class="page-header__logo-image" width="74" height="23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 1.55A1.29 1.29 0 0 1 1.26.26h7.13c5.06 0 8.39 2.7 8.39 7.13v.06c0 4.85-4.04 7.36-8.8 7.36H2.53v6.8A1.28 1.28 0 0 1 1.27 23 1.27 1.27 0 0 1 0 21.61V1.55Zm8.07 10.97c3.7 0 6.14-2 6.14-4.99v-.06c0-3.2-2.4-4.87-5.96-4.87H2.6v9.88l5.48.04ZM21.6 1.39A1.28 1.28 0 0 1 22.85 0a1.27 1.27 0 0 1 1.27 1.39V21.6A1.28 1.28 0 0 1 22.86 23a1.27 1.27 0 0 1-1.27-1.39V1.4ZM30.67 1.42A1.28 1.28 0 0 1 31.93.17h.34a1.54 1.54 0 0 1 1.29.74l13.6 17.4V1.36A1.24 1.24 0 0 1 48.39.12a1.23 1.23 0 0 1 1.23 1.24v20.3a1.14 1.14 0 0 1-1.15 1.17h-.13a1.7 1.7 0 0 1-1.31-.78L33.12 4.25v17.4a1.26 1.26 0 0 1-1.2 1.25 1.23 1.23 0 0 1-1.2-1.25V1.42h-.05ZM55.94 1.39A1.28 1.28 0 0 1 57.2 0a1.27 1.27 0 0 1 1.26 1.39v12.3L71.23.54c.26-.27.62-.43 1-.45a1.27 1.27 0 0 1 1.21 1.26 1.29 1.29 0 0 1-.41.9l-7.95 7.9 8.57 10.52c.23.26.35.6.35.94a1.31 1.31 0 0 1-1.34 1.28 1.23 1.23 0 0 1-1-.58L63.3 11.86l-4.83 4.85v4.88a1.27 1.27 0 0 1-1.26 1.27 1.26 1.26 0 0 1-1.26-1.27V1.4h-.01Z" fill="inherit" stroke="inherit"/>
+        </svg>
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toogle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Фотографии</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Конкурс</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Html Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="catalog-container">
+      <div class="catalog-container__title-wrapper">
+        <h1 class="catalog-container__title">Фотографии<br>пользователей</h1>
+      </div>
+      <div class="catalog-container__title-wrapper ">
+        <p class="catalog-container__title">Взгляните на фотографии, которые выкладывают пользователи!<br>Видите, как не хватает ваших?</p>
+      </div>
+      <section class="catalog-container__gallery gallery">
+        <h2 class="visually-hidden">Галерея фотографий пользователей</h2>
+        <figure class="panorama-photo">
+          <a class="panorama-photo__link" href="#" data-panorama="Панорама дня">
+          <img class="panorama-photo-image" src="" width="320" height="137" alt="Панорама дня">
+        </a>
+        <figcaption class="panorama-photo__description">
+          <p class="panorama-photo__author">
+            <b class="panorama-photo__author-name">Анна</b>
+            <time class="panorama-photo__date" datetime="2022-05-03T16:00">(5 минут назад)</time>
+          </p>
+          <p class="panorama-photo__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          <div class="panorama-photo__likes">
+            <button class="panorama-photo__like-button" type="button" aria-label="Нравится!"></button>
+            <span class="panorama-photo__like-number">Нравится: 215</span>
+          </div>
+        </figcaption>
+        </figure>
+        <div class="gallery__photo-wrapper">
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 1">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Левон</b>
+                <time class="photo__date" datetime="2022-05-03T11:00">(5 часов назад)</time>
+              </p>
+              <p class="photo__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 356</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 2">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Антон</b>
+                <time class="photo__date" datetime="2022-05-02T02:00">(12 часов назад)</time>
+              </p>
+              <p class="photo__text">Соседи будут рады!</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 666</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 3">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Борис</b>
+                <time class="photo__date" datetime="2022-05-02T20:00">(20 часов назад)</time>
+              </p>
+              <p class="photo__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 215</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 4">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Сергей</b>
+                <time class="photo__date" datetime="2022-05-02T15:00">(25 часов назад)</time>
+              </p>
+              <p class="photo__text">Самая кубанская в мире!</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 4</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 5">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Максим</b>
+                <time class="photo__date" datetime="2022-05-02T00:00">(40 часов назад)</time>
+              </p>
+              <p class="photo__text">Где снег-то?</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 150</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="gallery__photo photo">
+            <a class="photo__link" href="#">
+              <img class="photo-image" src="" width="280" height="180" alt="Фото 6">
+            </a>
+            <figcaption class="photo__description">
+              <p class="photo__author">
+                <b class="photo__author-name">Надежда</b>
+                <time class="photo__date" datetime="2022-05-01T19:00">(45 часов назад)</time>
+              </p>
+              <p class="photo__text">Всем GM и взаимные лайки!</p>
+              <div class="photo__likes">
+                <button class="photo__like-button" type="button" aria-label="Нравится!"></button>
+                <span class="photo__like-number">Нравится: 2560</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="catalog-container__photo-editor photo-editor">
+        <header class="photo-editor__header">
+          <h2 class="visually-hidden">Добавить фотографию</h2>
+          <p class="photo-editor__title">Затмите их всех!<br>Выкладывайте все, что накопилось в телефоне!</p>
+        </header>
+        <div class="photo-editor__form-wrapper">
+          <form class="form-photo" action="https://echo.htmlacademy.ru" method="post">
+            <input class="visually-hidden" type="file" id="image" name="image">
+            <label class="form-photo__image" for="image" aria-label="Выберите файл"></label>
+            <div class="form-photo__controls">
+              <div class="form-photo__filtres">
+                <div class="form-photo__filtres-buttons">
+                  <button class="form-photo__filter-button form-photo__filter-button--current" type="button" aria-label="Обрезка">
+                    <svg width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M32 28h4V12a4 4 0 0 0-4-4H16v4h16v16Zm-20 4V0H8v8H0v4h8v20a4 4 0 0 0 4 4h20v8h4v-8h8v-4H12Z" fill="#D22856"/>
+                    </svg>
+                  </button>
+                  <button class="form-photo__filter-button form-photo__filter-button--current" type="button" aria-label="Заливка">
+                    <svg width="48" height="43" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".3" fill="#283645">
+                      <path d="M33.12 17.88 15.24 0l-2.83 2.83 4.76 4.76L6.88 17.88a3 3 0 0 0 0 4.24l11 11a3 3 0 0 0 4.24 0l11-11a3 3 0 0 0 0-4.24ZM10.41 20 20 10.42 29.59 20H10.41ZM38 23s-4 4.33-4 7a4 4 0 1 0 8 0c0-2.67-4-7-4-7ZM48 40H0v3h48v-3Z"/>
+                    </svg>
+                  </button>
+                  <button class="form-photo__filter-button form-photo__filter-button--current" type="button" aria-label="Контраст">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".3" fill="#283645">
+                      <path d="M16 4a12 12 0 1 1 0 24 12 12 0 0 1 0-24Zm0-4a16 16 0 1 0 0 32 16 16 0 0 0 0-32Z"/><path d="M16 24.29a8.52 8.52 0 0 0 0-17"/></g>
+                    </svg>
+                  </button>
+                </div>
+            </div>
+            <div class="form-photo__buttons">
+              <button class="form-photo__button button" type="submit">Запостить</button>
+              <button class="form-photo__button button" type="reset">Отмена</button>
+            </div>
+          </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <a class="page-footer__logo" href="#" aria-label="Логотип Pink"></a>
+      <svg class="page-footer__logo-image" width="145" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M71 18.55a1.29 1.29 0 0 1 1.26-1.29h7.13c5.06 0 8.39 2.7 8.39 7.13v.06c0 4.85-4.04 7.36-8.8 7.36h-5.44v6.8A1.28 1.28 0 0 1 72.27 40 1.27 1.27 0 0 1 71 38.61V18.55Zm8.07 10.97c3.7 0 6.14-2 6.14-4.99v-.06c0-3.2-2.4-4.87-5.96-4.87H73.6v9.88l5.48.04ZM92.6 18.39A1.28 1.28 0 0 1 93.85 17a1.27 1.27 0 0 1 1.27 1.39V38.6A1.28 1.28 0 0 1 93.86 40a1.27 1.27 0 0 1-1.27-1.39V18.4ZM101.67 18.42a1.28 1.28 0 0 1 1.26-1.25h.34a1.53 1.53 0 0 1 1.29.74l13.6 17.4V18.36a1.24 1.24 0 0 1 1.23-1.24 1.23 1.23 0 0 1 1.23 1.24v20.3a1.16 1.16 0 0 1-.32.83 1.13 1.13 0 0 1-.83.34h-.13a1.69 1.69 0 0 1-1.31-.78l-13.91-17.8v17.4a1.26 1.26 0 0 1-1.2 1.25 1.23 1.23 0 0 1-1.2-1.25V18.42h-.05ZM126.94 18.39A1.28 1.28 0 0 1 128.2 17a1.27 1.27 0 0 1 1.26 1.39v12.3l12.76-13.14c.26-.27.62-.43 1-.45a1.27 1.27 0 0 1 1.21 1.26 1.3 1.3 0 0 1-.41.9l-7.95 7.9 8.57 10.52c.23.26.35.6.35.94a1.33 1.33 0 0 1-.4.92 1.29 1.29 0 0 1-.94.36 1.23 1.23 0 0 1-1-.58l-8.36-10.46-4.83 4.85v4.88a1.28 1.28 0 0 1-.78 1.17 1.26 1.26 0 0 1-1.74-1.17V18.4h-.01Z" fill="#283645"/><path fill-rule="evenodd" clip-rule="evenodd" d="m53.9 6.59 5.03 21.14a1.42 1.42 0 0 1-.75 1.72c-.2.09-.43.13-.65.11h-4.01a11.63 11.63 0 0 1-11.49 10.32c-5.92 0-10.8-4.5-11.49-10.32h-1.96A11.75 11.75 0 0 1 16.97 40c-6 0-10.94-4.57-11.61-10.47H1.45A1.36 1.36 0 0 1 .3 29a1.42 1.42 0 0 1-.24-1.27L5.1 6.6C5.46 4.26 7.64 0 13.5 0c.38 0 .76.16 1.03.44a1.5 1.5 0 0 1 0 2.1c-.27.27-.65.43-1.03.43-4.71 0-5.44 3.7-5.5 4.1L3.34 26.6h2.03a11.75 11.75 0 0 1 11.6-10.3c5.94 0 10.84 4.48 11.6 10.3h1.99a11.63 11.63 0 0 1 11.47-10.19c5.89 0 10.75 4.46 11.48 10.23v-.06h2.14L51 7.08c-.07-.41-.77-4.1-5.5-4.1-.39 0-.76-.17-1.03-.44a1.5 1.5 0 0 1 0-2.1c.27-.28.64-.44 1.03-.44 5.85 0 8.03 4.26 8.38 6.59ZM25.66 29.56a9.12 9.12 0 0 0-.02-2.97 8.85 8.85 0 0 0-8.68-7.38 8.85 8.85 0 0 0-8.82 8.94 8.85 8.85 0 0 0 8.81 8.94c4.4 0 8.04-3.26 8.71-7.53Zm24.94 0a8.75 8.75 0 0 0-8.58-10.23 8.75 8.75 0 0 0-8.58 10.23 8.73 8.73 0 0 0 8.58 7.4c4.33 0 7.91-3.2 8.58-7.4Z" fill="#D22856"/>
+      </svg>
+      <ul class="footer-sotial">
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="">
+            <svg class="footer-sotial__icon" width="54" height="54" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity=".1" fill-rule="evenodd" clip-rule="evenodd" d="M54 27a27 27 0 1 1-54 0 27 27 0 0 1 54 0ZM27 51a24 24 0 1 0 0-48 24 24 0 0 0 0 48Z" fill="#283645"/><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M35.59 22.71c.12-.4 0-.71-.6-.71h-1.97c-.5 0-.73.26-.85.55 0 0-1 2.4-2.42 3.95-.46.45-.67.6-.92.6-.13 0-.32-.15-.32-.56v-3.83c0-.5-.13-.71-.55-.71h-3.1c-.3 0-.5.23-.5.44 0 .47.71.58.78 1.89v2.85c0 .62-.11.74-.36.74-.67 0-2.3-2.41-3.26-5.17-.18-.53-.37-.75-.87-.75h-1.97c-.57 0-.68.26-.68.55 0 .5.67 3.05 3.1 6.41 1.64 2.3 3.93 3.54 6.01 3.54 1.26 0 1.41-.28 1.41-.75V30c0-.55.12-.66.52-.66.29 0 .79.14 1.96 1.25 1.33 1.31 1.55 1.9 2.3 1.9h1.97c.56 0 .85-.28.68-.82a8.36 8.36 0 0 0-1.66-2.27c-.46-.53-1.14-1.1-1.35-1.4-.3-.36-.21-.52 0-.85 0 0 2.4-3.32 2.65-4.45Z" fill="#D22856"/></g><defs><clipPath id="a"><path fill="#fff" transform="translate(18 18)" d="M0 0h18v18H0z"/></clipPath></defs>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="">
+            <svg class="footer-sotial__icon" width="54" height="54" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity=".1" fill-rule="evenodd" clip-rule="evenodd" d="M54 27a27 27 0 1 1-54 0 27 27 0 0 1 54 0ZM27 51a24 24 0 1 0 0-48 24 24 0 0 0 0 48Z" fill="#283645"/><path d="m34.7 21.2-2.37 11.21c-.18.8-.65.99-1.31.62l-3.63-2.67-1.74 1.68c-.2.2-.36.35-.73.35l.26-3.69 6.71-6.06c.3-.26-.06-.4-.45-.14l-8.3 5.22-3.57-1.12c-.78-.24-.8-.77.16-1.15l13.97-5.38c.65-.24 1.21.14 1 1.13Z" fill="#D22856"/>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="">
+            <svg class="footer-sotial__icon" width="54" height="54" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity=".1" fill-rule="evenodd" clip-rule="evenodd" d="M54 27a27 27 0 1 1-54 0 27 27 0 0 1 54 0ZM27 51a24 24 0 1 0 0-48 24 24 0 0 0 0 48Z" fill="#283645"/><path d="M21.83 33.8a1.25 1.25 0 0 1-1.28.04 1.1 1.1 0 0 1-.44-.46.97.97 0 0 1-.1-.6V22.22c-.03-.2 0-.41.1-.6.1-.2.24-.35.44-.46a1.26 1.26 0 0 1 1.28.03l12.4 5.5c1.03.45 1.03 1.17 0 1.62l-12.4 5.5Z" fill="#D22856"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="page-footer__development">
+        <span class="page-footer__development-text">Разработано</span>
+        <a class="page-footer__development-link" href="">
+           <svg class="page-footer__development-image academy-logo" width="27" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.64.02 13.5 0 0 1.4v24.61L13.5 34 27 26.01V1.41L13.64 0Zm11.6 25L13.5 31.96 1.77 25.02v-10.1l11.68 6.93.02 1.25-8.02-4.75v1.23l8.04 4.8.02 1.3-8.05-4.76v1.22l8.04 4.81 8.12-4.83V16.9l3.62-2.15v10.26Zm0-11.57L22 15.33l-1.48.88-7.06-4.19-.01 1.23 6.04 3.57-.06.03-.13.07-.86.5-4.98-2.95-.01 1.22 3.93 2.33-.93.61-.02.01-2.97-1.74-.01 1.23 1.94 1.13-1.98 1.19L1.8 13.58l11.63-6.96 11.8 6.83Zm0-1.22L13.43 5.3 1.77 12.22V2.99L13.5 1.76 25.23 3v9.24Z" fill="#D22856"/>
+           </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
